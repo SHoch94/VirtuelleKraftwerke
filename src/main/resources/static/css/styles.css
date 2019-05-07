@@ -1,0 +1,35 @@
+body {
+	padding: 0px 20px 0px 20px;
+}
+
+.main {
+	background-color: #F2F2F2;
+	padding: 20px 50px 20px 50px;
+	height: 200%;
+}
+
+.addMenu {
+	background-color: #F2F2F2;
+	border: 2px solid #EBEBEB;
+}
+
+.mainContents {
+	background-color: #EBEBEB;
+}
+
+.mainContents tr:nth-child(even) {
+	background-color: #E3E3E3;
+}
+
+.mainContents tr:hover {
+	background-color: #D0D0D0;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+table > input {
+	margin-top: 3px;
+}
